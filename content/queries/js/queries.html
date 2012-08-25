@@ -1,0 +1,16 @@
+<script>
+// highlight certain lines of code
+jQuery(function($) {
+	$(document).on('impress:stepenter', function(e) {
+		var $slide = $(e.target);
+		switch ($slide.attr('id')) {
+			case 'queries-04-wp-query-modifiers':
+				$slide.find('li.L4, li.L5, li.L6').addClass('code-bold');
+			break;
+			case 'queries-05-get_post':
+				$slide.find('li.L2:eq(0), li.L1:eq(1)').addClass('code-bold');
+			break;
+		}
+	});
+});
+</script>

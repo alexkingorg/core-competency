@@ -1,0 +1,35 @@
+<script>
+// highlight certain lines of code
+jQuery(function($) {
+	$('#the-content-stage-the-content').on('impress-stage-active', function() {
+		$(this).find('li.L1 span.pln:eq(1)').addClass('code-bold');
+	});
+	$('#the-content-stage-get-content-1').on('impress-stage-active', function() {
+		$(this).find('li.L1:eq(0) span.pln:eq(4), li.L6:eq(1)').addClass('code-bold');
+	});
+	$('#the-content-stage-get-content-2').on('impress-stage-active', function() {
+		$(this).find('li.L7:eq(1)').addClass('code-bold');
+	});
+	$('#the-content-stage-get-content-3').on('impress-stage-active', function() {
+		$(this).find('li.L3').addClass('code-bold');
+	});
+	$('#the-content-stage-the-loop').on('impress-stage-active', function() {
+		$(this).find('li.L0 span.pln:eq(4), li.L0 span.pun:last').addClass('code-bold');
+	});
+	$('#the-content-stage-the-post').on('impress-stage-active', function() {
+		$(this).find('li.L3').addClass('code-bold');
+	});
+	$('#the-content-stage-wp-query-the-post').on('impress-stage-active', function() {
+		$(this).find('li.L3:eq(1)').addClass('code-bold');
+	});
+	$('#the-content-stage-setup-postdata-1').on('impress-stage-active', function() {
+		$(this).find('li.L1 span.pln:eq(6), li.L5:eq(1)').addClass('code-bold');
+	});
+	$('#the-content-stage-setup-postdata-2').on('impress-stage-active', function() {
+		$(this).find('li.L9').addClass('code-bold');
+	});
+	$('#the-content-stage-get-posts').on('impress-stage-active', function() {
+		$(this).find('li.L1:eq(0)').addClass('code-bold');
+	});
+});
+</script>

@@ -1,0 +1,11 @@
+<script>
+// highlight certain lines of code
+jQuery(function($) {
+	$('#slashes-update-metadata').on('impress-stage-active', function() {
+		$(this).find('li.L7').addClass('code-bold');
+	});
+	$('#slashes-more-slashes').on('impress-stage-active', function() {
+		$(this).find('li.L1 span.pln:eq(4)').addClass('code-bold');
+	});
+});
+</script>

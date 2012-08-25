@@ -2,7 +2,7 @@
 		<div class="inner-wrap">
 			<ul class="typ-intro">
 				<li>Can be set manually.</li>
-				<li>Auto-generated from <br><code class="inline">$post->post_content</code></li>
+				<li>Auto-generated from <br><code>$post->post_content</code></li>
 				<li>Truncates by words (default 55), not by characters.</li>
 			</ul>
 		</div>

@@ -17,7 +17,7 @@
 <!-- 2 -->
 			<article class="stage pad-top-2x">
 				<div class="inner-wrap">
-					<p class="center"><code>&lt;!--nextpage--></code></p>
+					<p class="center"><code class="typ-big">&lt;!--nextpage--></code></p>
 				</div>
 			</article>
 
@@ -30,7 +30,7 @@
 <!-- 4 -->
 			<article class="stage" id="the-content-stage-get-posts">
 				<div class="inner-wrap">
-					<h2><code>get_posts()</code></h2>
+					<h2><code>WP_Query, get_posts()</code></h2>
 					<p class="file-location">wp-includes/query.php, line 2756</p>
 				</div>
 				<div class="code-block">

@@ -1,0 +1,16 @@
+<script>
+// highlight certain lines of code
+jQuery(function($) {
+	$(document).on('impress:stepenter', function(e) {
+		var $slide = $(e.target);
+		switch ($slide.attr('id')) {
+			case 'the-excerpt-02-wp-trim-excerpt':
+				$slide.find('li.L9').addClass('code-bold');
+			break;
+		}
+	});
+	$('#the-excerpt-03-edge-case-02').on('impress-stage-active', function() {
+		$(this).find('li.L5:eq(1), li.L6:eq(1), li.L9:eq(1), li.L5:eq(2)').addClass('code-bold');
+	});
+});
+</script>

@@ -1,0 +1,278 @@
+/** Defaults
+ -------------------------------------------------- */
+body {
+	background: #3e606f url(../img/bg.png) 50% 50% no-repeat;
+}
+h1,
+h2 {
+	color: #123244;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 600;
+	line-height: 1em;
+	margin: 10px 0;
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 40px;
+}
+
+
+/** Fonts
+ -------------------------------------------------- */
+@font-face {
+	font-family: 'Inconsolata';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Inconsolata'), url(../fonts/inconsolata/v5/BjAYBlHtW3CJxDcjzrnZCLrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v2/toadOcfmlt9b38dHJxOBGMVNtom4QlEDNJaqqqzqdSs.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v2/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v2/toadOcfmlt9b38dHJxOBGCmgpmuQqK2I-L2S9cF65Ek.woff) format('woff');
+}
+
+
+/** Slides
+ -------------------------------------------------- */
+/* Title Slides */
+.slide-title {
+	color: #c7e2ee;
+	font-size: 34px;
+	line-height: 38px;
+	padding: 0;
+}
+.slide-title h1 {
+	color: #fff;
+}
+
+.step {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-weight: 400;
+}
+/* Basic slides that show in white box */
+.slide {
+	font-family: 'Source Sans Pro';
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin-left: 30px; /* not sure why */
+	margin-bottom: 20px; /* not sure why */
+	padding: 0;
+}
+.inner-wrap {
+	padding: 40px 150px 45px 150px;
+}
+.inner-wrap p,
+.inner-wrap ul,
+.inner-wrap ol {
+	margin: 20px 0 0 0;
+}
+.inner-wrap ul li,
+.inner-wrap ol li {
+	margin: 10px 0;
+}
+.inner-wrap ul {
+	list-style-type: inherit;
+}
+.code-block {
+	background-color: #eee;
+	padding: 45px 0;
+}
+
+/* Slide counter */
+.counter {
+	background: url(../img/counter.png) 0 0 no-repeat;
+	bottom: 10px;
+	color: #fff;
+	font-size: 18px;
+	line-height: 35px;
+	height: 40px;
+	position: absolute;
+	right: -11px;
+	text-align: center;
+	width: 106px;
+}
+.counter p {
+	margin: 0 0 0 18px;
+}
+.counter span {
+	padding: 0 3px 0 2px;
+}
+
+/* Visually center specific slides */
+#bio {
+	padding-top: 95px;
+}
+
+/** Typography
+ -------------------------------------------------- */
+.typ-intro {
+	font-size: 34px;
+}
+p.typ-intro,
+ul.typ-intro li {
+	margin: 20px 0;
+}
+ul.typ-intro {
+	list-style-type: none;
+}
+ul.typ-intro li {
+	background: url(../img/arrow.png) 0 12px no-repeat;
+	line-height: 1.3;
+	padding-left: 25px;
+}
+.typ-sm {
+	color: #666;
+	font-size: 24px;
+}
+.typ-big {
+	font-size: 48px;
+	line-height: 1.3;
+}
+p.key {
+	font-size: 45%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 1;
+	margin-top: 50px;
+	margin-left: -20px;
+	padding: 0;
+	text-transform: uppercase;
+}
+p.key span {
+	background: #3e606f;
+	border-radius: 3px;
+	color: #fff;
+	padding: 2px 8px;
+}
+.slide .mar-bottom-1x {
+	margin-bottom: 30px;
+}
+.slide .mar-bottom-2x {
+	margin-bottom: 60px;
+}
+.slide .mar-top-1x {
+	margin-top: 30px;
+}
+.slide .mar-top-2x {
+	margin-top: 60px;
+}
+
+/** Utility
+ -------------------------------------------------- */
+.center {
+	text-align: center;
+}
+.half {
+	float: left;
+	width: 50%;
+}
+.dim {
+	opacity: 60%;
+}
+.pad-top-1x {
+	padding-top: 100px;
+}
+.pad-top-1-5x {
+	padding-top: 150px;
+}
+.pad-top-2x {
+	padding-top: 200px;
+}
+.pad-top-3x {
+	padding-top: 300px;
+}
+
+/* scrolly goodness */
+.slide .scrollable {
+	height: 100%;
+	overflow: hidden;
+}
+.slide .scrollable .stage {
+	height: 100%;
+	margin-bottom: 10em;
+	overflow: hidden;
+}
+
+/* styling */
+.slide em {
+	font-style: normal;
+	text-transform: uppercase;
+}
+.bold {
+	font-weight: bold;
+}
+
+.med {
+	font-size: 75%;
+}
+
+.slide ol {
+	list-style: decimal;
+	margin-left: 30px;
+}
+
+.slide .small {
+	font-size: 66%;
+}
+.slide .big {
+	font-size: 125%;
+}
+.slide p.middle {
+	height: 100%;
+	line-height: 100%;
+}
+.slide .file-location {
+	font-size: 20px;
+}
+
+/* code formatting */
+pre.prettyprint {
+	border: 0;
+}
+.slide pre.prettyprint li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+pre.prettyprint li.l1,
+pre.prettyprint li.l3,
+pre.prettyprint li.l5,
+pre.prettyprint li.l7,
+pre.prettyprint li.l9 {
+	background: transparent;
+}
+code, pre {
+	font-family: "Inconsolata", "Courier New", monospace;
+	letter-spacing: .8px;
+}
+code.inline {
+	padding: 0 10px;
+}
+code.pad-left-none {
+	padding-left: 0;
+}
+.slide .code,
+.slide .code li {
+	font: 18px "Inconsolata", "Courier New", monospace;
+	line-height: 1.3;
+	padding: 0;
+}
+.slide .code .code-bold {
+	font-weight: bold;
+}

@@ -68,7 +68,7 @@ foreach ($sections as $section) {
 $('pre.prettyprint').html(function() {
 	return this.innerHTML.replace(/\t/g, '&nbsp;&nbsp;&nbsp;&nbsp;');
 });
-console.log('# of slides: ' + ($('.step').size() + $('.stage').size()));
+// console.log('# of slides: ' + ($('.step').size() + $('.stage').size()));
 </script>
 
 <?php

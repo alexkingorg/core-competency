@@ -12,6 +12,7 @@ $sections = array(
 //	'return-values',
 // include a plugin in a theme
 	'delete-post',
+	'guid',
 	'security',
 	'wrap-up',
 );

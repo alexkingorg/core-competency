@@ -10,7 +10,7 @@
 <!-- 1 -->
 			<article class="stage pad-top-2x">
 				<div class="inner-wrap">
-					<p>So where is <code class="inline">global $pages</code> set?</p>
+					<p class="typ-big">Where is <code class="inline">global $pages</code> set?</p>
 				</div>
 			</article>
 

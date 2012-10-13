@@ -16,7 +16,7 @@ jQuery(function($) {
 				$active = $stages.filter(':first').addClass('active');
 			}
 			switch (e.keyCode) {
-// 				case 40: // down arrow
+				case 40: // down arrow
 				case 190: // . = forward
 					var $next = $active.next('.stage');
 					if ($next.size()) {
@@ -27,7 +27,7 @@ jQuery(function($) {
 						$next.addClass('active').trigger('impress-stage-active');
 					}
 				break;
-// 				case 38: // up arrow
+				case 38: // up arrow
 				case 188: // , = back
 					var $prev = $active.prev('.stage');
 					if ($prev.size()) {
